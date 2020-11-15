@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        " H ",
+        " S ",
+        " S "
+    ],
+   
+    "key":
+    {
+        "H":
+        {
+            "item": "customrecipesmod:forge_hammer_head"
+        },
+        
+        "S": 
+        {
+            "type": "forge:ore_dict",
+            "ore": "stickWood"
+        }
+    },
+     
+    "result":
+    {
+        "item": "ic2:forge_hammer",
+        "count": 1
+    }
+}

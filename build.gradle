@@ -12,8 +12,8 @@ apply plugin: 'net.minecraftforge.gradle.forge'
 
 
 version = "1.0"
-group = "com.yourname.forgecraftcustomrecipes" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "forgecraftcustomrecipes"
+group = "com.yourname.customrecipesmod" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "customrecipesmod"
 
 sourceCompatibility = targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 compileJava {
@@ -57,6 +57,9 @@ dependencies {
 
     compile "curse.maven:primalcore:2734701"
     compile "curse.maven:forgecraft:2742170"
+	compile "curse.maven:heatandclimatelib:3099681"
+	compile "curse.maven:heatandclimate:3104632"
+	compile "curse.maven:forgcraft:2695262"
 		
 	compile("CraftTweaker2:CraftTweaker2-API:4.1.20.601") {
         exclude module: "asm-debug-all"
